@@ -4,6 +4,9 @@
 
 body {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -240,6 +243,10 @@ body {
     margin-left: -3rem;
     border-radius: 12px;
 }
+.fa-sort-amount-down,.fa-dumpster{
+    font-size: 35px;
+    color: gray;
+}
 
 .inpAnimation {
     height: 100%;
@@ -277,4 +284,119 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width:1024px){
+    .filter-container,
+.action-container {
+    height: 50%;
+    border-radius: 8px;
+    margin-left: 2rem;
+    background-color: #444444;
+    margin-top: 3vh;
+    display: flex;
+}
+.filter-container{
+    width: 30%;
+}
+.action-container{
+    width: 15%;
+    /* padding-top: 12px; */
+}
+.srchCont{
+    margin-top: 3vh;
+    margin-left: 2rem;
+    height: 50%;
+    width: 20%;
+}
+.function{
+    margin-top: 3vh;
+    height: 50%;
+    width: 18%;
+}
+.btn{
+    width: 5rem;
+}
+.delete{
+    padding-top: 12px;
+}
+.add{
+    padding-top: 10px;
+}
+.themeBtn{
+    right: 3rem;
+    bottom: 5rem;
+}
+}
+@media (max-width:600px){
+    .filter-container,
+.action-container {
+    height: 60%;
+    border-radius: 8px;
+    margin-left: 2rem;
+    background-color: #444444;
+    margin-top: 3vh;
+    display: flex;
+}
+.filter-container{
+    /* padding-top: 7px; */
+    width: 35%;
+    margin-left: 5px;
+}
+.action-container{
+    width: 15%;
+    margin-left: 5px;
+}
+.srchCont{
+    margin-top: 3.3vh;
+    height: 60%;
+    width: 30%;
+    margin-left: 10px;
+}
+.filter{
+    padding-top: 7px;
+}
+.function{
+    margin-top: 3.2vh;
+    height: 60%;
+    width: 25%;
+    margin-left: 5px;
+}
+.btn{
+    width: 20px;
+    margin-left: -1rem;
+    border-radius: 12px;
+}
+.delete{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.add{
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.modal-container{
+    height: 25%;
+    width: 80%;
+    margin-left:8rem;
+}
+.themeBtn{
+    right: 0.7rem;
+    bottom: 2rem;
+}
+.bin-container{
+    margin-left: 4px;
+}
+.active-modal-filer{
+    border: 1px solid white;
+}
+.inpAnimation{
+    font-size: 15px;
+}
+.fa-sort-amount-down,.fa-dumpster{
+    font-size: 20px;
+}   
 }
