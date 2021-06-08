@@ -180,15 +180,13 @@ body {
 
 .bin-container{
     background-color: #444444;
-    height: 3.5rem;
-    width: 3.8rem;
-    position: fixed;
-    right: 2rem;
-    top: calc( ( 12vh - 3.8rem ) / 2 ) ;
+    height: 100%;
+    width: 50%;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 1.3rem;
 }
 
 .bin-container:hover{
@@ -200,11 +198,8 @@ body {
 }
 .sort{
     background-color: #444444;
-    height: 3.5rem;
-    width: 3.8rem;
-    position: fixed;
-    right: 7.2rem;
-    top: calc( ( 12vh - 3.8rem ) / 2 ) ;
+    height: 100%;
+    width: 50%;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -215,17 +210,16 @@ body {
 }
 .srchCont {
     display: flex;
-    height: 3.5rem;
-    width: 15rem;
+    height: 75%;
+    margin-top: 1.5vh;   
+    width: 18.5%;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: calc( ( 12vh - 3.7rem ) / 2 ) ;
-    right: 12.5rem;
+    margin-left: 30.5rem;
 }
 
 .inp {
-    height: 3.4rem; 
+    height: 0rem; 
     width: 0rem;
     outline: none;
     transition: all 0.4s linear;
@@ -237,8 +231,8 @@ body {
 }
 
 .btn {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 100%;
+    width: 23%;
     background-color: green;
     display: flex;
     justify-content: center;
@@ -248,8 +242,8 @@ body {
 }
 
 .inpAnimation {
-    height: 3.5rem;
-    width: 15rem;
+    height: 100%;
+    width: 100%;
     outline: none;
     color: white;
     border: 1px solid white;
@@ -274,4 +268,13 @@ body {
 }
 .themeBtn:hover{
     background-color: #393939;
+}
+.function{
+    margin-top: 1.5vh;
+    height: 75%;
+    width: 10rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
