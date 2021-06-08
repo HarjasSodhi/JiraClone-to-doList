@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #6ce6eb 20%, #35f264);
+    background-image: linear-gradient(to left, #009FFF , #ec2F4B 60%);
     font-family: "Open Sans", sans-serif;
   }
 
