@@ -416,3 +416,30 @@ body {
     font-size: 20px;
 }   
 }
+@media (max-width:375px){
+    .delete{
+    padding-top: 4.5px;
+    }
+    .add{
+        padding-top: 10.5px;
+    }
+    .modal-container{
+        margin-top: 4.5rem;
+    }
+    .modal-filter {
+        height: 1.7rem;
+    }
+    .srchCont{
+        width: 25%;
+        margin-left: 5px;
+    }
+    .function{
+        width: 18%;
+    }
+    .filter-container{
+        width: 34.5%
+    }
+.action-container{
+    width: 13%;
+}
+}
