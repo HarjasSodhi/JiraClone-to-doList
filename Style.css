@@ -327,6 +327,22 @@ body {
     bottom: 5rem;
 }
 }
+@media (max-width:768px){
+    .btn{
+        width: 2rem;
+        margin-left: -1rem;
+    }
+    .themeBtn{
+        right:0.7rem;
+        bottom: 4rem;
+    }
+    .delete{
+        padding-top: 3px;
+    }
+    .add{
+        padding-top: 4.3px;
+    }
+}
 @media (max-width:600px){
     .filter-container,
 .action-container {
