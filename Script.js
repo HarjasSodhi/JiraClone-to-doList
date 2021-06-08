@@ -559,7 +559,7 @@ function DarkMode() {
     let navbar = document.querySelector(".navbar");
     let tickets = document.querySelectorAll(".ticket");
     navbar.style.backgroundColor = "black"
-    grid.style.backgroundColor = "#282c34"
+    grid.style.backgroundColor = "#081B33"
     for (let i = 0; i < tickets.length; i++) {
         tickets[i].style.backgroundColor = "#333333"
         let id = tickets[i].querySelector(".ticket-id");
