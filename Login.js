@@ -1,6 +1,11 @@
 if (!localStorage.getItem("Pass&key")) {
     localStorage.setItem("Pass&key", JSON.stringify(["0SMZWTkkomLUrayadvTgXw=="]))
 }
+alert(`
+For testing purpose-
+username- HarjasSodhi
+pass- hello123!
+`);
 let form=document.querySelector("form");
 form.addEventListener("submit",function(event){
     event.preventDefault();
