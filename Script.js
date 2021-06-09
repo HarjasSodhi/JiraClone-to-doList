@@ -11,7 +11,7 @@ let colors = {
 };
 var x = document.referrer;
 if (x == "") {
-    alert("login pls");
+    alert("login please");
     let body=document.querySelector("body");
     body.remove()
     location.replace("index.html");

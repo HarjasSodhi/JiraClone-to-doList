@@ -415,13 +415,16 @@ body {
 .fa-sort-amount-down,.fa-dumpster{
     font-size: 20px;
 }   
+.text-area{
+    font-size: 25px;
+}
 }
 @media (max-width:375px){
     .delete{
     padding-top: 4.5px;
     }
     .add{
-        padding-top: 10.5px;
+        padding-top: 9.8px;
     }
     .modal-container{
         margin-top: 4.5rem;
@@ -434,12 +437,15 @@ body {
         margin-left: 5px;
     }
     .function{
-        width: 18%;
+        width: 22%;
     }
     .filter-container{
         width: 34.5%
     }
-.action-container{
+    .action-container{
     width: 13%;
-}
+    }
+    .text-area{
+        font-size: 18px;
+    }
 }
